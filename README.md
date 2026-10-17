@@ -6,6 +6,6 @@ The page shows recorded October 16, 2026 AMD Token Factory runs with local MuJoC
 
 Source project: https://github.com/anish-01/simtoreal-agent
 
-The demo video includes synthesized narration. Run records under evidence/ remove local absolute paths. No API keys are included.
+The demo video is silent and includes captions for the team to present in their own words. Run records under evidence/ remove local absolute paths. No API keys are included.
 
 Serve this directory with any static HTTP server. GitHub Pages publishes the main branch root.
