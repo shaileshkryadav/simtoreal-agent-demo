@@ -1,0 +1,352 @@
+{
+  "run_id": "20261016-134420",
+  "task": "Put the blue part in bin B",
+  "goals": {
+    "blue_part": "bin_b"
+  },
+  "plans": [
+    {
+      "plan_id": 1,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 2,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.25
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 3,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.05
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 4,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "home"
+        }
+      ]
+    },
+    {
+      "plan_id": 5,
+      "steps": [
+        {
+          "action": "home"
+        },
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 6,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.15
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "home"
+        }
+      ]
+    },
+    {
+      "plan_id": 7,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "lift",
+          "height": 0.1
+        }
+      ]
+    },
+    {
+      "plan_id": 8,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "blue_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.3
+        },
+        {
+          "action": "move_to",
+          "target": "bin_b"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "home"
+        }
+      ]
+    }
+  ],
+  "table": [
+    {
+      "plan_id": 1,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 1 failed (could not reach target)",
+      "result": {
+        "plan_id": 1,
+        "success": false,
+        "steps_done": 0,
+        "time": 1.0,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 1,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-1fd69f9ab2b54d7c89206abcccb0ef85/final.png",
+        "video_path": "original-run/20261016-134420/candidate-1fd69f9ab2b54d7c89206abcccb0ef85/video.mp4"
+      }
+    },
+    {
+      "plan_id": 2,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 1 failed (could not reach target)",
+      "result": {
+        "plan_id": 2,
+        "success": false,
+        "steps_done": 0,
+        "time": 1.0,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 1,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-d8419112db9c44fc979311dca2379202/final.png",
+        "video_path": "original-run/20261016-134420/candidate-d8419112db9c44fc979311dca2379202/video.mp4"
+      }
+    },
+    {
+      "plan_id": 3,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 1 failed (could not reach target)",
+      "result": {
+        "plan_id": 3,
+        "success": false,
+        "steps_done": 0,
+        "time": 1.0,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 1,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-a13c3ecdc32a4147b797510104e04c4f/final.png",
+        "video_path": "original-run/20261016-134420/candidate-a13c3ecdc32a4147b797510104e04c4f/video.mp4"
+      }
+    },
+    {
+      "plan_id": 4,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 1 failed (could not reach target)",
+      "result": {
+        "plan_id": 4,
+        "success": false,
+        "steps_done": 0,
+        "time": 1.0,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 1,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-69faa1a6e35945d7aba9eca236c54e77/final.png",
+        "video_path": "original-run/20261016-134420/candidate-69faa1a6e35945d7aba9eca236c54e77/video.mp4"
+      }
+    },
+    {
+      "plan_id": 5,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 2 failed (could not reach target)",
+      "result": {
+        "plan_id": 5,
+        "success": false,
+        "steps_done": 1,
+        "time": 2.502,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 2,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-cf2f71f57d9b4ef9b3669186ed3b5985/final.png",
+        "video_path": "original-run/20261016-134420/candidate-cf2f71f57d9b4ef9b3669186ed3b5985/video.mp4"
+      }
+    },
+    {
+      "plan_id": 6,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 1 failed (could not reach target)",
+      "result": {
+        "plan_id": 6,
+        "success": false,
+        "steps_done": 0,
+        "time": 1.0,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 1,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-0d2424e5e6374f748243f4d8a004b1bc/final.png",
+        "video_path": "original-run/20261016-134420/candidate-0d2424e5e6374f748243f4d8a004b1bc/video.mp4"
+      }
+    },
+    {
+      "plan_id": 7,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 1 failed (could not reach target)",
+      "result": {
+        "plan_id": 7,
+        "success": false,
+        "steps_done": 0,
+        "time": 1.0,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 1,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-b3b2ace809e940f3a47a42501f718715/final.png",
+        "video_path": "original-run/20261016-134420/candidate-b3b2ace809e940f3a47a42501f718715/video.mp4"
+      }
+    },
+    {
+      "plan_id": 8,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: step 1 failed (could not reach target)",
+      "result": {
+        "plan_id": 8,
+        "success": false,
+        "steps_done": 0,
+        "time": 1.0,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": 1,
+        "reason": "could not reach target",
+        "image_path": "original-run/20261016-134420/candidate-cb266508f7ce446c91df6e480c504b59/final.png",
+        "video_path": "original-run/20261016-134420/candidate-cb266508f7ce446c91df6e480c504b59/video.mp4"
+      }
+    }
+  ],
+  "best": null,
+  "error": "no safe plan found",
+  "timings": {
+    "llm_s": 6.247,
+    "sim_s": 1.528,
+    "total_s": 9.786
+  },
+  "amd": {
+    "gpu": "AMD Token Factory (GPU model not reported)",
+    "llm_model": "DeepSeek-V4-Flash",
+    "vlm_model": "DeepSeek-V4.1-Flash",
+    "plans_per_s": 1.28
+  }
+}

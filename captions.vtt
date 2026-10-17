@@ -1,0 +1,36 @@
+WEBVTT
+
+00:00.000 --> 00:07.000
+SimToReal Agent tests robot plans before an operator approves an export.
+Our team is Visionary Creators.
+
+00:07.000 --> 00:17.000
+AMD Token Factory generated eight candidate plans for each task.
+MuJoCo tested those plans locally, with a simulated Panda arm.
+
+00:17.000 --> 00:22.000
+In the red placement task, six candidates passed.
+Two dropped a part.
+
+00:22.000 --> 00:29.000
+The system rejected those failures before ranking the remaining plans.
+
+00:29.000 --> 00:36.000
+Sorting both parts also produced six passing candidates
+and two dropped parts.
+
+00:36.000 --> 00:43.000
+For the unreachable blue part, all eight candidates failed.
+The application selected no best plan.
+
+00:43.000 --> 00:52.000
+Geometry checks and camera responses disagreed on the successful tasks,
+so the application required human review.
+
+00:52.000 --> 00:56.000
+Across three recorded live runs, 24 plans were tested.
+Twelve passed simulation and twelve failed.
+
+00:56.000 --> 01:00.000
+This prototype exports files.
+It does not command a physical robot.

@@ -1,0 +1,384 @@
+{
+  "run_id": "20261016-133954",
+  "task": "Put the red part in bin A",
+  "goals": {
+    "red_part": "bin_a"
+  },
+  "plans": [
+    {
+      "plan_id": 1,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 2,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.25
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 3,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.05
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 4,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "home"
+        }
+      ]
+    },
+    {
+      "plan_id": 5,
+      "steps": [
+        {
+          "action": "home"
+        },
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        }
+      ]
+    },
+    {
+      "plan_id": 6,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.15
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "home"
+        }
+      ]
+    },
+    {
+      "plan_id": 7,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "lift",
+          "height": 0.1
+        }
+      ]
+    },
+    {
+      "plan_id": 8,
+      "steps": [
+        {
+          "action": "move_to",
+          "target": "red_part"
+        },
+        {
+          "action": "grasp"
+        },
+        {
+          "action": "lift",
+          "height": 0.3
+        },
+        {
+          "action": "move_to",
+          "target": "bin_a"
+        },
+        {
+          "action": "release"
+        },
+        {
+          "action": "home"
+        }
+      ]
+    }
+  ],
+  "table": [
+    {
+      "plan_id": 1,
+      "score": 100.0,
+      "status": "OK",
+      "reason": "OK: fastest and shortest safe plan",
+      "result": {
+        "plan_id": 1,
+        "success": true,
+        "steps_done": 4,
+        "time": 5.46,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": null,
+        "reason": "",
+        "image_path": "original-run/20261016-133954/candidate-9488dd07e6ea43308de44d3683e88f04/final.png",
+        "video_path": "original-run/20261016-133954/candidate-9488dd07e6ea43308de44d3683e88f04/video.mp4"
+      },
+      "vision": {
+        "answer": "no",
+        "confidence": 1,
+        "reason": "The red cube is not visible; only a blue cube is present, and it is not inside the green bin.",
+        "needs_review": true,
+        "seconds": 7.96
+      }
+    },
+    {
+      "plan_id": 3,
+      "score": 94.6,
+      "status": "OK",
+      "reason": "OK: 0.41 s slower than fastest safe plan; 1 more steps than shortest safe plan",
+      "result": {
+        "plan_id": 3,
+        "success": true,
+        "steps_done": 5,
+        "time": 5.87,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": null,
+        "reason": "",
+        "image_path": "original-run/20261016-133954/candidate-ecc2cf8e7d2b42d8abf61a76fcd61431/final.png",
+        "video_path": "original-run/20261016-133954/candidate-ecc2cf8e7d2b42d8abf61a76fcd61431/video.mp4"
+      }
+    },
+    {
+      "plan_id": 7,
+      "score": 94.17,
+      "status": "OK",
+      "reason": "OK: 0.55 s slower than fastest safe plan; 1 more steps than shortest safe plan",
+      "result": {
+        "plan_id": 7,
+        "success": true,
+        "steps_done": 5,
+        "time": 6.01,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": null,
+        "reason": "",
+        "image_path": "original-run/20261016-133954/candidate-21d56b4b9cba4d5d9adcdb532753fa64/final.png",
+        "video_path": "original-run/20261016-133954/candidate-21d56b4b9cba4d5d9adcdb532753fa64/video.mp4"
+      }
+    },
+    {
+      "plan_id": 5,
+      "score": 91.69,
+      "status": "OK",
+      "reason": "OK: 1.50 s slower than fastest safe plan; 1 more steps than shortest safe plan",
+      "result": {
+        "plan_id": 5,
+        "success": true,
+        "steps_done": 5,
+        "time": 6.962,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": null,
+        "reason": "",
+        "image_path": "original-run/20261016-133954/candidate-8b89f01178c44254b8a5bb2b755a9772/final.png",
+        "video_path": "original-run/20261016-133954/candidate-8b89f01178c44254b8a5bb2b755a9772/video.mp4"
+      }
+    },
+    {
+      "plan_id": 4,
+      "score": 91.39,
+      "status": "OK",
+      "reason": "OK: 1.64 s slower than fastest safe plan; 1 more steps than shortest safe plan",
+      "result": {
+        "plan_id": 4,
+        "success": true,
+        "steps_done": 5,
+        "time": 7.096,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": null,
+        "reason": "",
+        "image_path": "original-run/20261016-133954/candidate-604bfa56ce4f42358d79a4bca9040299/final.png",
+        "video_path": "original-run/20261016-133954/candidate-604bfa56ce4f42358d79a4bca9040299/video.mp4"
+      }
+    },
+    {
+      "plan_id": 6,
+      "score": 87.47,
+      "status": "OK",
+      "reason": "OK: 2.27 s slower than fastest safe plan; 2 more steps than shortest safe plan",
+      "result": {
+        "plan_id": 6,
+        "success": true,
+        "steps_done": 6,
+        "time": 7.726,
+        "collisions": 0,
+        "dropped": false,
+        "failed_step": null,
+        "reason": "",
+        "image_path": "original-run/20261016-133954/candidate-ee53867f38404721af08e7272b328df7/final.png",
+        "video_path": "original-run/20261016-133954/candidate-ee53867f38404721af08e7272b328df7/video.mp4"
+      }
+    },
+    {
+      "plan_id": 2,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: dropped part",
+      "result": {
+        "plan_id": 2,
+        "success": false,
+        "steps_done": 5,
+        "time": 6.46,
+        "collisions": 0,
+        "dropped": true,
+        "failed_step": null,
+        "reason": "part dropped before release",
+        "image_path": "original-run/20261016-133954/candidate-aac00304cdea47489ba6c257ab3a87d0/final.png",
+        "video_path": "original-run/20261016-133954/candidate-aac00304cdea47489ba6c257ab3a87d0/video.mp4"
+      }
+    },
+    {
+      "plan_id": 8,
+      "score": 0.0,
+      "status": "Rejected",
+      "reason": "Rejected: dropped part",
+      "result": {
+        "plan_id": 8,
+        "success": false,
+        "steps_done": 6,
+        "time": 8.306,
+        "collisions": 0,
+        "dropped": true,
+        "failed_step": null,
+        "reason": "part dropped before release",
+        "image_path": "original-run/20261016-133954/candidate-76372636795e4a9ea3d104a2230d80c9/final.png",
+        "video_path": "original-run/20261016-133954/candidate-76372636795e4a9ea3d104a2230d80c9/video.mp4"
+      }
+    }
+  ],
+  "best": {
+    "plan_id": 1,
+    "score": 100.0,
+    "status": "OK",
+    "reason": "OK: fastest and shortest safe plan",
+    "result": {
+      "plan_id": 1,
+      "success": true,
+      "steps_done": 4,
+      "time": 5.46,
+      "collisions": 0,
+      "dropped": false,
+      "failed_step": null,
+      "reason": "",
+      "image_path": "original-run/20261016-133954/candidate-9488dd07e6ea43308de44d3683e88f04/final.png",
+      "video_path": "original-run/20261016-133954/candidate-9488dd07e6ea43308de44d3683e88f04/video.mp4"
+    },
+    "vision": {
+      "answer": "no",
+      "confidence": 1,
+      "reason": "The red cube is not visible; only a blue cube is present, and it is not inside the green bin.",
+      "needs_review": true,
+      "seconds": 7.96
+    }
+  },
+  "error": "",
+  "timings": {
+    "llm_s": 5.715,
+    "sim_s": 4.75,
+    "vision_s": 7.96,
+    "total_s": 20.57
+  },
+  "amd": {
+    "gpu": "AMD Token Factory (GPU model not reported)",
+    "llm_model": "DeepSeek-V4-Flash",
+    "vlm_model": "DeepSeek-V4.1-Flash",
+    "plans_per_s": 1.4
+  }
+}
